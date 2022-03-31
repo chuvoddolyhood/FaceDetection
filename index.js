@@ -43,7 +43,7 @@ video.addEventListener('playing', ()=>{
         //ve khung vuong
         faceapi.draw.drawDetections(canvas, resizedDetects);
 
-        //
+        //draw expression frame
         faceapi.draw.drawFaceLandmarks(canvas, resizedDetects);
         faceapi.draw.drawFaceExpressions(canvas, resizedDetects);
     }, 500);
